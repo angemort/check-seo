@@ -20,8 +20,10 @@ def run():
             query = sys.argv[2]
             print("first page result for the query : ")
             urls = search.search_compare(query)
-            print("there is "+len(urls)+ "competitors")
+
             for url in urls:
+                print("##########################################")
+                print(url)
                 headers.def_headers(url)
                 r = requests.get(url)
                 if r.status_code == requests.codes.ok:

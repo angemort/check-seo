@@ -7,7 +7,7 @@ Un outil de référencement qui analyse la structure d'un site, parcourt le site
 ```sh
 pip install check-seo
 -- OR --
-pip3 install -r requirements.txt 
+pip3 install -r requirements.txt
 ```
 
 ## Démarrer
@@ -15,5 +15,7 @@ pip3 install -r requirements.txt
 ```sh
 python check-seo <url siteweb>
 ```
-
-
+compare with first page result of a querry : 
+```sh
+python check-seo <url siteweb> <query>
+```

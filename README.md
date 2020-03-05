@@ -3,14 +3,17 @@ Check-SEO
 
 Un outil de référencement qui analyse la structure d'un site, parcourt le site, compte les mots dans le corps du site et prévient de tout problème technique de référencement.
 
+## Installation
+```sh
+pip install check-seo
+-- OR --
+pip3 install -r requirements.txt 
+```
+
 ## Démarrer
 
 ```sh
-pip install check-seo
+python check-seo <url siteweb>
 ```
 
-## Installation des Packets requis
-```sh
-pip3 install -r requirements.txt 
-```
 
